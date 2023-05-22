@@ -47,7 +47,7 @@
         </div>
     </form>
     <h1 v-else class="text-lg font-bold mb-2 text-white bg-dodger-blue-800 inline px-3 py-2 mt-16">
-      We sincerely appreciate your application and interest. Thank you!
+      Thank you for your application and interest !
     </h1>
     <!-- <router-view></router-view> -->
     
