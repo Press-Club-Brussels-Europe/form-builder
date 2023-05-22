@@ -3,7 +3,8 @@
     
     <img class="mx-auto h-34 mt-10 px-3" alt="Vue logo" src="./assets/bus.png" />
     <h1 class="text-2xl font-bold mt-8 mb-2 uppercase">MEDIA ACCREDITATION</h1>
-    <p class="text-lg font-bold mb-8">Confirmation</p>
+    <p v-if="form.status" class="text-lg font-bold mb-8">Registration Form</p>
+    <p v-else class="text-lg font-bold mb-8">Confirmation</p> 
     
     <form
     v-if="form.status" 
