@@ -15,12 +15,12 @@
      class="max-w-xl mx-auto p-5 text-left">
         <div class="grid gap-6 mb-6 md:grid-cols-2">
             <div>
-                <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-                <input v-model="form.firstname" type="text" id="first_name" name="first_name" class="outline-none  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-dodger-blue-500 focus:border-dodger-blue-500 block w-full p-2.5 dark:bg-dodger-blue-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-dodger-blue-500 dark:focus:border-dodger-blue-500" placeholder="" required>
+                <label for="firstname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
+                <input v-model="form.firstname" type="text" id="firstname" name="firstname" class="outline-none  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-dodger-blue-500 focus:border-dodger-blue-500 block w-full p-2.5 dark:bg-dodger-blue-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-dodger-blue-500 dark:focus:border-dodger-blue-500" placeholder="" required>
             </div>
             <div>
-                <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
-                <input v-model="form.lastname" type="text" id="last_name" name="last_name" class="outline-none  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-dodger-blue-500 focus:border-dodger-blue-500 block w-full p-2.5 dark:bg-dodger-blue-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-dodger-blue-500 dark:focus:border-dodger-blue-500" placeholder="" required>
+                <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
+                <input v-model="form.lastname" type="text" id="lastname" name="lastname" class="outline-none  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-dodger-blue-500 focus:border-dodger-blue-500 block w-full p-2.5 dark:bg-dodger-blue-900 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-dodger-blue-500 dark:focus:border-dodger-blue-500" placeholder="" required>
             </div>
             <div>
                 <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Media</label>
